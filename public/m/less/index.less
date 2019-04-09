@@ -1,0 +1,104 @@
+@import 'base.less';
+
+.dfcc() {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-size: .14rem;
+    line-height: .14rem;
+}
+
+#main {
+    flex: 1;
+    overflow: hidden;
+
+    .mui-scroll-wrapper {
+        position: relative;
+        height: 100%;
+    }
+}
+
+#main {
+    #nav {
+        padding: .1rem;
+
+        .mui-row {
+            >div {
+                a {
+                    display: block;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    #banner {
+        padding: 0 .1rem;
+
+        a {
+            display: block;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .mui-col-xs-8 {
+            a {
+                img {
+                    height: 1.2rem;
+                }
+            }
+        }
+
+        .mui-col-xs-4 {
+            a {
+                img {
+                    height: 2.4rem;
+                }
+            }
+        }
+    }
+
+    #brand,
+    #sport,
+    #lady,
+    #man {
+        padding: .1rem;
+
+        .title {
+            a {
+                display: block;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .content {
+            .mui-row {
+
+                >div {
+                    a {
+                        display: block;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

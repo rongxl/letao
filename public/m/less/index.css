@@ -1,0 +1,159 @@
+html {
+  font-size: 26.6667vw;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+}
+#header {
+  background-color: #006699;
+  display: flex;
+  height: .45rem;
+  width: 100%;
+  z-index: 9999;
+}
+#header .left {
+  width: .45rem;
+  height: .45rem;
+}
+#header .left a {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  line-height: .45rem;
+}
+#header .center {
+  flex: 1;
+}
+#header .center h4 {
+  color: #fff;
+  font-weight: normal;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#header .center form {
+  margin-top: .05rem;
+}
+#header .center form input {
+  background-color: #fff;
+  height: .35rem;
+  text-align: center;
+  font-size: .14rem;
+  margin-bottom: 0;
+}
+#header .right {
+  width: .45rem;
+  height: .45rem;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .right a {
+  color: #fff;
+}
+#footer {
+  background-color: #006699;
+  width: 100%;
+  height: .45rem;
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  left: 0;
+}
+#footer .mui-row > div a {
+  height: .45rem;
+  color: #fff;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer .mui-row > div a i {
+  display: block;
+}
+#footer .mui-row > div a span {
+  display: block;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-size: .14rem;
+  line-height: .14rem;
+}
+#main {
+  flex: 1;
+  overflow: hidden;
+}
+#main .mui-scroll-wrapper {
+  position: relative;
+  height: 100%;
+}
+#main #nav {
+  padding: .1rem;
+}
+#main #nav .mui-row > div a {
+  display: block;
+}
+#main #nav .mui-row > div a img {
+  width: 100%;
+}
+#main #banner {
+  padding: 0 .1rem;
+}
+#main #banner a {
+  display: block;
+}
+#main #banner a img {
+  width: 100%;
+}
+#main #banner .mui-col-xs-8 a img {
+  height: 1.2rem;
+}
+#main #banner .mui-col-xs-4 a img {
+  height: 2.4rem;
+}
+#main #brand,
+#main #sport,
+#main #lady,
+#main #man {
+  padding: .1rem;
+}
+#main #brand .title a,
+#main #sport .title a,
+#main #lady .title a,
+#main #man .title a {
+  display: block;
+}
+#main #brand .title a img,
+#main #sport .title a img,
+#main #lady .title a img,
+#main #man .title a img {
+  width: 100%;
+}
+#main #brand .content .mui-row > div a,
+#main #sport .content .mui-row > div a,
+#main #lady .content .mui-row > div a,
+#main #man .content .mui-row > div a {
+  display: block;
+}
+#main #brand .content .mui-row > div a img,
+#main #sport .content .mui-row > div a img,
+#main #lady .content .mui-row > div a img,
+#main #man .content .mui-row > div a img {
+  width: 100%;
+}
